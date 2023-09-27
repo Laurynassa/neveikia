@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 30px;
+}
+.picture-fill {
+  object-fit: fill;
+}
+.picture-cover {
+  object-fit: cover;
+}
+.picture-contain {
+  object-fit: contain;
+}
+.picture-none {
+  object-fit: none;
+}
+.picture-scale {
+  object-fit: scale-down;
+}
+.container {
+  width: 500px;
+  height: 100px;
+  margin-bottom: 200px;
+}

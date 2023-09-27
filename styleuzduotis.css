@@ -1,0 +1,49 @@
+body {
+  margin: 30px;
+}
+h2 {
+  color: #48af20;
+}
+.yellow {
+  color: rgb(231, 231, 29);
+}
+p {
+  inline-size: 850px;
+  overflow-wrap: break-word;
+}
+.burbuliukai {
+  color: red;
+}
+.text {
+  color: blue;
+  text-decoration: underline;
+}
+.tekstas {
+  font-size: 20px;
+  font-weight: bold;
+}
+table {
+  border: 4px inset #000;
+}
+td {
+  border-collapse: collapse;
+  border: inset 3px rgb(158, 154, 154);
+}
+
+th {
+  border-collapse: collapse;
+  border: inset 3px rgb(145, 139, 139);
+}
+.table-vienas {
+  font-weight: bold;
+  color: blue;
+}
+.table-du {
+  color: rgb(245, 122, 245);
+  font-weight: bold;
+}
+.sign-spalva {
+  font-style: bold;
+  color: orange;
+  font-weight: 18px;
+}

@@ -4,25 +4,27 @@
   box-sizing: border-box;
 }
 body {
+  background-color: aquamarine;
   margin: 30px;
 }
 .picture-fill {
-  object-fit: fill;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 .picture-cover {
   object-fit: cover;
 }
 .picture-contain {
+  width: 50px;
+  height: 10px;
   object-fit: contain;
 }
 .picture-none {
   object-fit: none;
 }
 .picture-scale {
-  object-fit: scale-down;
-}
-.container {
   width: 500px;
   height: 100px;
-  margin-bottom: 200px;
+  object-fit: scale-down;
 }

@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.picture-fill {
+  border: 10px bold #000;
+  object-fit: fill;
+}
+.picture-cover {
+  border: 10px bold #000;
+  object-fit: cover;
+}
+.picture-contain {
+  width: 900px;
+  height: 800px;
+  border: 10px bold #000;
+  object-fit: contain;
+}
